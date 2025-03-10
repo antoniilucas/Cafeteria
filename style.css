@@ -52,16 +52,19 @@ section {
 .navbar a {
     margin: 0 1rem;
     font-size: 1.8rem;
+    line-height: 2.5rem;
     color: #fff;
-    
+    display: inline-block;
+    transition: transform 0.3s ease, border-bottom 0.3s ease;
+    transform-origin: center bottom;
 }
 
 .navbar a:hover {
     color: var(--main-color);
     border-bottom: 0.1rem solid var(--main-color);
-    padding-bottom: 0.5rem;
-    font-size: 2rem;
+    transform: scale(1.1);
 }
+
 
 .icons img{
     margin: 1rem;
