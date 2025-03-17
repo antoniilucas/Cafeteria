@@ -248,3 +248,105 @@ section {
 .footer .share img:hover {
     background-color: var(--main-color);
 }
+
+@media screen and (max-width: 1020px){
+
+.navbar {
+    display: none;
+}
+
+.content {
+    max-width: 30rem;
+}
+
+.content h3 {
+    font-size: 4.2rem;
+}
+
+.content p {
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.4;
+    padding: 1rem 0;
+}
+
+.btn {
+    padding: .5rem 1rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.title {
+    font-size: 3.1rem;
+}
+
+.about .row {
+    display: grid;  
+    gap: 1.5rem;
+}
+
+.about .row .content {
+    padding: 2rem;
+}
+
+.about .row .content h3 {
+    font-size: 3.5rem;
+}
+
+.about .row .content p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.about .container-image img {
+    width: 100%;
+}
+
+.box-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.menu .box-container .box {
+    padding: .1rem;
+}
+
+.menu .box-container .box img {
+    height: 7rem;
+}
+
+.menu .box-container .box .price {
+    font-size: 2rem;
+}
+
+.menu .box-container .box .price span {
+    font-size: 1.25rem;
+}
+
+.box-container .box .clientes{
+    grid-template-columns: 1fr 1fr;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+iframe {
+    width: 90vw;
+    height: 90vw;
+}
+}
+
+.review .box-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.home-container {
+    height: 97vh;
+}
+
+
+}
